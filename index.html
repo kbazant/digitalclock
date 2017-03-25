@@ -7,18 +7,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<script type="text/javascript">
-		
 		function counting() {
-		
-		const today = new Date();
 
-		const day = today.getDate();
-		const month = today.getMonth() + 1;
-		const year = today.getFullYear();
+			const today = new Date();
 
-		const hour = today.getHours();
-		const minute = today.getMinutes();
-		const second = today.getSeconds();
+			const day = today.getDate();
+			const month = today.getMonth() + 1;
+			const year = today.getFullYear();
+
+			const hour = today.getHours();
+			const minute = today.getMinutes();
+			const second = today.getSeconds();
+
+			document.getElementById("clock").innerHTML =
+				day + "/" + month + "/" + year + " | " + hour + ":" + minute + ":" + second;
+
 		}
 	</script>
 </head>
@@ -28,8 +31,6 @@
 	<div id="clock"></div>
 
 	<script type="text/javascript">
-		document.getElementById("clock").innerHTML =
-			day + "/" + month + "/" + year + " | " + hour + ":" + minute + ":" + second;
 	</script>
 
 </body>
