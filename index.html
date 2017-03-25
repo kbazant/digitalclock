@@ -9,19 +9,19 @@
 	<script type="text/javascript">
 		function counting() {
 
-			const today = new Date();
+			let today = new Date();
+			let day = today.getDate();
+			let month = today.getMonth() + 1;
 
-			const day = today.getDate();
-			const month = today.getMonth() + 1;
-			const year = today.getFullYear();
+			let year = today.getFullYear();
 
-			const hour = today.getHours();
+			let hour = today.getHours();
 			if (hour < 10) hour = "0" + hour;
 
-			const minute = today.getMinutes();
+			let minute = today.getMinutes();
 			if (minute < 10) minute = "0" + minute;
 
-			const second = today.getSeconds();
+			let second = today.getSeconds();
 			if (second < 10) second = "0" + second;
 
 			document.getElementById("clock").innerHTML =
