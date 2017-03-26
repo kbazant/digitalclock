@@ -1,3 +1,5 @@
+//JS for clock
+
 function counting() {
 
 	let today = new Date();
@@ -23,3 +25,12 @@ function counting() {
 
 	setTimeout("counting()", 1000);
 }
+
+//jQuery for Quote Machine
+
+$(document).ready(function(){
+	function getQuote(){
+		const quotes = ["Quote 1", "Quote 2", "Quote 3"];
+		const authors  = ["Author 1", "Author 2", "Author 3"];
+	}
+});
