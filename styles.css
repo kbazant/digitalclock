@@ -1,4 +1,21 @@
 /**********
+QUOTES DIV
+**********/
+#quotes {
+	background-color: grey;
+	width: 33%;
+	margin-right: auto;
+	margin-left: auto;
+	border-color: white;
+	border-style: solid;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 20px;
+	height: auto;
+	color: white;
+}
+
+/**********
 FOOTER
 **********/
 
