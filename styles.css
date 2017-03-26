@@ -9,6 +9,16 @@ body {
 
 
 /**********
+CLOCK DIV
+**********/
+
+#clock {
+	font-size: 5em;
+	text-align: center;
+}
+
+
+/**********
 QUOTES DIV
 **********/
 
@@ -29,10 +39,12 @@ QUOTES DIV
 .quote-text {
 	font-size: 30px;
 }
+
 .author-text {
 	font-size: 20px;
 	font-style: italic;
 }
+
 
 /**********
 FOOTER
