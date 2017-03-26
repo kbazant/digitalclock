@@ -74,7 +74,12 @@
 	<!--	jQuery file link-->
 	<script type="text/javascript" src="js/quotes.js"></script>
 	<script>
-		$('.slick-slider').slick();
+		$('.slick-slider').slick({
+			fade: true,
+			autoplay: true,
+			autoplaySpeed: 5000,
+			arrows: false
+		});
 	</script>
 </body>
 
