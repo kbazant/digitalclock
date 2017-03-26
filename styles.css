@@ -5,3 +5,11 @@ FOOTER
 #heart {
 	color: #bb0a1e;
 }
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
