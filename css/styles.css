@@ -23,6 +23,13 @@ QUOTES DIV
 **********/
 
 
+/*style for slider dots*/
+
+.slick-dots li button::before {
+	font-size: 14px;
+}
+
+
 /**********
 FOOTER
 **********/
@@ -42,6 +49,7 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+
 .quote-about-time {
 	text-align: center;
 }
