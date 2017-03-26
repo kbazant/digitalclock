@@ -50,6 +50,10 @@ QUOTES DIV
 FOOTER
 **********/
 
+footer {
+	text-align: center;
+}
+
 #heart {
 	color: #bb0a1e;
 }
