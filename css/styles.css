@@ -18,6 +18,23 @@ CLOCK DIV
 }
 
 
+/*clock text*/
+#clock {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 0.5em;
+}
+
+/*quote text*/
+h2 {
+	font-family: 'EB Garamond', serif;
+	font-size: 2.2em;
+}
+/*quote author text*/
+p {
+	font-family: 'Open Sans', serif;
+}
+
+
 /**********
 QUOTES DIV
 **********/
