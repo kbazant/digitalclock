@@ -31,7 +31,7 @@ h2 {
 }
 /*quote author text*/
 p {
-	font-family: 'Open Sans', serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -53,6 +53,8 @@ FOOTER
 
 footer {
 	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8em;
 }
 
 #heart {
