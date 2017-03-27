@@ -71,6 +71,8 @@ body {
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto -4em;
+	position: relative;
+	top: 33%;
 }
 
 .footer,
