@@ -112,3 +112,93 @@ body {
 .footer {
 	z-index: 1000;
 }
+
+
+/**********
+Styles for Vertical Align + Sticky Footer
+**********/
+
+/*1. table structure*/
+#wrapper {
+display: table;
+}
+#wrapper > .row {
+display: table-row;
+}
+#wrapper > .row > .cell {
+display: table-cell;
+}
+
+/*2. remove default paddings and margins*/
+* {
+margin: 0;
+padding: 0;
+}
+
+html {
+	overflow: auto; /*IE specific*/
+}
+
+/*3.set 100% heights for parent elements*/
+html, body {
+/* default height */
+height: 100%;
+/* to avoid vertical scroll bar in most browsers */
+height: 99.99999%;
+}
+#wrapper {
+height: 100%;
+min-height: 100%;
+width: 100%;
+}
+#middle-row {
+height: 100%;
+}
+
+/*4. set-up vertical centering*/
+#middle-cell {
+	vertical-align: middle;
+}
+
+/*5. set the footer height, remove the gap after the footer and set the #push height (#push is used to avoid #main-content overflow by #footer)*/
+
+#main-content {
+	display: inline-block;
+}
+
+#push, #footer {
+	height: 19px; /* footer height and #push helper height*/
+}
+#wrapper {
+	margin-bottom: -19px; /* remove the gap after the footer, must be the same as #footer and #push */
+}
+
+/*6. WebKit browsers (Safary and Chrome) add one-pixel space after the footer, the solution:*/
+/* to avoid vertical scrollbar in webkit */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	html, body {
+		height: 100%;
+	}
+	.cell-footer {
+		height: 19px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
