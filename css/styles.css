@@ -3,7 +3,8 @@ BODY STYLES
 **********/
 
 body {
-	background-color: #f5f5f5;
+	background: url('../images/crossword.png') #f5f5f5;
+	background-repeat: repeat repeat;
 	font-family: "Times New Roman", serif;
 }
 
