@@ -91,6 +91,10 @@ QUOTES DIV
 	bottom: -35px;
 }
 
+.slick-dots li.slick-active button:before {
+	color: #bb0a1e;
+}
+
 
 /**********
 FOOTER
