@@ -170,7 +170,7 @@ padding: 0;
 }
 
 html {
-	overflow: auto; /*IE specific*/
+	overflow: auto; IE specific
 }
 
 /*3.set 100% heights for parent elements*/
