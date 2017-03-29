@@ -121,6 +121,7 @@ a {
 
 a:hover {
 	text-decoration: underline;
+	color: #71000d;
 }
 
 .quote-about-time {
