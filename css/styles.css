@@ -96,12 +96,6 @@ body {
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto -4em;
-	position: relative;
-	top: 33%;
-}
-
-#clock {
-	margin-top: 33%
 }
 
 .footer,
@@ -109,6 +103,14 @@ body {
 	height: 1em;
 }
 
-.footer {
-	z-index: 1000;
+
+.main-container {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 90%;
+	background-color: #dddddd;
+	border-radius: 5px;
+	padding: 1em;
 }
