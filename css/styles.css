@@ -38,7 +38,6 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	max-width: 90%;
-	background-color: #dddddd;
 	border-radius: 5px;
 	padding: 1em;
 }
@@ -117,6 +116,7 @@ a:hover {
 
 .quote-about-time {
 	text-align: center;
+	padding-bottom: 10px;
 }
 
 
