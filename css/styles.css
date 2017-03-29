@@ -87,6 +87,10 @@ QUOTES DIV
 	font-size: 14px;
 }
 
+.slick-dots {
+	bottom: -35px;
+}
+
 
 /**********
 FOOTER
