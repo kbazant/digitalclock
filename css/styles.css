@@ -2,43 +2,53 @@
 BODY STYLES
 **********/
 
+/*
 body {
 	background-color: #f5f5f5;
 	font-family: "Times New Roman", serif;
 }
+*/
 
 
 /**********
 CLOCK DIV
 **********/
 
+/*
 #clock {
 	font-size: 5em;
 	text-align: center;
 }
+*/
 
 
 /*clock text*/
 
+/*
 #clock {
 	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 0.5em;
 }
+*/
 
 
 /*quote text*/
 
+/*
 h2 {
 	font-family: 'EB Garamond', serif;
 	font-size: 2.2em;
 }
+*/
 
 
 /*quote author text*/
 
+/*
 p {
 	font-family: 'Open Sans', sans-serif;
 }
+*/
 
 
 /**********
@@ -48,49 +58,66 @@ QUOTES DIV
 
 /*style for slider dots*/
 
+/*
 .slick-dots li button::before {
 	font-size: 14px;
 }
+*/
 
 
 /**********
 FOOTER
 **********/
 
+/*
 footer {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 0.8em;
 }
+*/
 
+/*
 #heart {
 	color: #bb0a1e;
 }
+*/
 
+/*
 a {
 	text-decoration: none;
 }
+*/
 
+/*
 a:hover {
 	text-decoration: underline;
 }
+*/
 
+/*
 .quote-about-time {
 	text-align: center;
 }
+*/
 
 
 /*Sticky Footer styles*/
 
+/*
 * {
 	margin: 0;
 }
+*/
 
+/*
 html,
 body {
 	height: 100%;
 }
+*/
 
+/*
 .wrapper {
 	min-height: 100%;
 	height: auto !important;
@@ -99,19 +126,26 @@ body {
 	position: relative;
 	top: 33%;
 }
+*/
 
+/*
 #clock {
 	margin-top: 33%
 }
+*/
 
+/*
 .footer,
 .push {
 	height: 1em;
 }
+*/
 
+/*
 .footer {
 	z-index: 1000;
 }
+*/
 
 
 /**********
