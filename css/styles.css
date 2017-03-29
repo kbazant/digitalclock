@@ -9,6 +9,41 @@ body {
 
 
 /**********
+MAIN CONTENT STYLES
+**********/
+
+
+/*Main web page content centered vertically*/
+
+* {
+	margin: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+
+.main-container {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 90%;
+	background-color: #dddddd;
+	border-radius: 5px;
+	padding: 1em;
+}
+
+
+/**********
 CLOCK DIV
 **********/
 
@@ -82,35 +117,7 @@ a:hover {
 
 /*Sticky Footer styles*/
 
-* {
-	margin: 0;
-}
-
-html,
-body {
-	height: 100%;
-}
-
-.wrapper {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -4em;
-}
-
 .footer,
 .push {
 	height: 1em;
-}
-
-
-.main-container {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	max-width: 90%;
-	background-color: #dddddd;
-	border-radius: 5px;
-	padding: 1em;
 }
