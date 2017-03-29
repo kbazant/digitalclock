@@ -102,12 +102,17 @@ footer {
 	font-size: 0.8em;
 }
 
+footer p {
+	color: #333;
+}
+
 #heart {
 	color: #bb0a1e;
 }
 
 a {
 	text-decoration: none;
+	color: #bb0a1e;
 }
 
 a:hover {
