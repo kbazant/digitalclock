@@ -21,7 +21,7 @@ function counting() {
 	if (second < 10) second = "0" + second;
 
 	document.getElementById("clock").innerHTML =
-		day + "/" + month + "/" + year + " | " + hour + ":" + minute + ":" + second;
+		day + "/" + month + "/" + year + " &#183; " + hour + ":" + minute + ":" + second;
 
 	setTimeout("counting()", 1000);
 }
