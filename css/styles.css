@@ -48,15 +48,10 @@ CLOCK DIV
 **********/
 
 #clock {
+	font-family: 'Open Sans', sans-serif;
 	font-size: 5em;
 	text-align: center;
-}
-
-
-/*clock text*/
-
-#clock {
-	font-family: 'Open Sans', sans-serif;
+	color: #333;
 	margin-bottom: 0.5em;
 }
 
