@@ -132,3 +132,12 @@ a:hover {
 .push {
 	height: 1em;
 }
+
+/**********
+RESPONSIVE STYLES
+**********/
+@media (max-width: 767.98px) {
+	#clock {
+	font-size: 3.4em;
+	}
+}
